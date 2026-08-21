@@ -10,10 +10,5 @@ https://andressa-barros.github.io/relogio/
 - CSS3 (Flexbox e posicionamento absoluto)
 - JavaScript (Vanilla - Manipulação de DOM, objeto Date e setInterval)
 
-## Design vs Resultado Final
-
-Abaixo você pode ver a comparação do protótipo desenhado no Figma com a versão final codada.
-
-| Protótipo (Figma) | Resultado Final (Web) |
-| :---: | :---: |
-| <img src="projeto-relogio.png" width="400px"> | <img src="projeto-relogio.png" width="400px"> |
+### Protótipo
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/FqsWousat56NiRPmSXPEV4/Github-Projects?node-id=53-323&t=5gS149RiYbgXJRXb-1)
