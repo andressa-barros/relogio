@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Share Tech Mono", monospace;
+}
+.cenario {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #8b5a2b;
+  background-image: url("./img/mesa.png"), url("./img/livros.png");
+  background-position: bottom, top;
+  background-size:
+    100% 30%,
+    250px auto;
+  background-repeat: no-repeat, repeat;
+}
+
+.relogio {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carcaca {
+  background-color: #7b00d3;
+  width: 100%;
+  padding: clamp(10px, 3vw, 20px);
+  border: 5px solid #000;
+  border-radius: 20px;
+}
+
+.tela {
+  background-color: #ff7300;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  border: 5px solid #000;
+  border-radius: 20px;
+  padding: clamp(15px, 4vw, 25px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hora {
+  font-family: "Share Tech Mono", monospace;
+  font-size: clamp(40px, 10vw, 80px);
+  color: #fff;
+  text-align: center;
+  margin-top: clamp(15px, 4vw, 35px);
+}
+
+.data {
+  font-family: "Share Tech Mono", monospace;
+  font-size: clamp(14px, 4vw, 26px);
+  color: #fff;
+  text-align: left;
+}
+
+.base-relogio {
+  background-color: #7b00d3;
+  width: 90%; /* Deixa a base um pouco menor que a carcaça, formando os "pés" */
+  height: clamp(15px, 3vw, 25px);
+  border: 5px solid #000;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
