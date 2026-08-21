@@ -10,5 +10,8 @@ https://andressa-barros.github.io/relogio/
 - CSS3 (Flexbox e posicionamento absoluto)
 - JavaScript (Vanilla - Manipulação de DOM, objeto Date e setInterval)
 
-### Protótipo
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/FqsWousat56NiRPmSXPEV4/Github-Projects?node-id=53-323&t=5gS149RiYbgXJRXb-1)
+## Protótipo
+
+Abaixo você pode ver o design inicial planejado para o projeto:
+
+<img src="img/projeto-relogio.png" width="500px">
